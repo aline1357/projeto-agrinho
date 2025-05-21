@@ -1,1 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background: #4CAF50; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white; /* Cor de fundo das seções */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h2 {
+    color: #4CAF50; /* Cor dos títulos das seções */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* Linha de separação entre itens */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove a linha do último item */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333; /* Cor do rodapé */
+    color: white;
+    position: relative; /* Para controle de posicionamento */
+    bottom: 0;
+    width: 100%;
+}
 
